@@ -1,0 +1,97 @@
+.boxes{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    width: 550px;
+    align-items: center;
+}
+
+.skill-box{
+    margin-top: 5rem;
+    /* border: 2px solid yellow; */
+}
+
+.skills{
+    margin: 0 auto;
+    margin-top: 10rem;
+    max-width: 90%;
+}
+
+h1{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.container {
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+    display: flex;
+    align-items: center;
+    background: rgb(35,35,35);
+    width: 100%;
+    /* border: 2px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.container:hover .html {
+    width: 72.5%;
+}
+
+.container:hover .css {
+    width: 65%;
+}
+
+.container:hover .js {
+    width: 57.5%;
+}
+
+.container:hover .react {
+    width: 50%;
+}
+
+.container:hover .cpp {
+    width: 72.5%;
+}
+
+.container:hover .git {
+    width: 57.5%;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px; 
+}
+
+.hover-div {
+    position: relative;
+    width: 0;
+    height: 1rem; 
+    background-color: #ff5733;
+    transition: 0.6s ease;
+    max-width: 80%;
+    border-radius: 0.5rem;
+}
+
+.text {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #fff;
+    opacity: 0;
+    transition: 0.6s ease;
+}
+
+.container:hover .hover-div .text {
+    opacity: 1;
+}
+
+.skill-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

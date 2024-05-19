@@ -1,0 +1,99 @@
+.navbar{
+    /* background-color: green; */
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color:  rgb(27, 27, 27);
+}
+
+.nav-left .logo{
+    width: 180px;
+}
+
+.nav-mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.nav-items{
+    font-size: 1.2rem;
+    transition: ease-out 0.1s;
+}
+
+.nav-items:hover{
+    cursor: pointer;
+    color: #ff5733;
+    border-bottom: 2px solid #ff5733;
+    padding-bottom: 0.5rem;
+}
+
+.contact-btn{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    color: black;
+    border: 1px solid yellow;
+}
+
+.contact-btn:hover{
+    cursor: pointer;
+    scale: 1.03;
+}
+
+.active{
+    color: #ff5733;
+    border-bottom: 2px solid #ff5733;
+    padding-bottom: 0.5rem;
+}
+
+/* css for the hamburger menu */
+
+.mobMenu{
+    display: none;
+    object-fit: cover;
+    height: 2rem;
+    position: fixed;
+    right: 1rem;
+}
+
+.navMenu{
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgb(25, 25, 25);
+    border-radius: 1rem;    
+    text-align: center;
+}
+
+.listItem{
+    padding: 0.5rem 3rem;
+    margin: 0.5rem 3rem;
+    background: rgb(20, 20, 20);
+
+}
+
+@media only screen and (max-width: 700px){
+    .mobMenu{
+        display: flex;
+    }
+
+    .nav-mid, .contact-btn{
+        display: none;
+    }
+}
+
+
