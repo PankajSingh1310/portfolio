@@ -9,7 +9,7 @@ import Facebook from '../../assets/facebook.png';
 
 function Footer() {
     return (
-        <div id='footer' data-aos="fade-up">
+        <div id='footer'>
 
             <div className="footer-main" >
 

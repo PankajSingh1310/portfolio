@@ -125,6 +125,20 @@
         width: 100%;
         height: fit-content;
         flex-direction: column;
+
+    }
+
+    .mainBox{
+        width: fit-content;
+    }
+
+    .detailBox{
+        width: fit-content;
+        height: 35%;
+    }
+    
+    .year{
+        margin-top: 1rem;
     }
     
 }

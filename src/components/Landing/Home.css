@@ -76,10 +76,21 @@
     }
 
     .about-me{
-        /* border: 2px solid green; */
         width: fit-content;
         margin: 0 auto;
         padding-top: 2rem;
+    }
+
+    .about-me h2{
+        font-size: 1.8rem;
+    }
+    
+    .about-me p{
+        font-size: 1.1rem;
+    }
+    
+    .about-me p span{
+        font-size: 1.3rem;
     }
 }
 

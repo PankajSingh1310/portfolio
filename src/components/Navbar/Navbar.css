@@ -96,6 +96,11 @@
     .nav-mid, .contact-btn{
         display: none;
     }
+
+    .nav-left .logo{
+        width: 135px;
+        margin-left: -2rem;
+    }
 }
 
 
