@@ -20,6 +20,27 @@
     color: black;
 }
 
+.about-me h2{
+    font-size: 2.5rem;
+    font-weight:900;
+    font-style: normal;
+    padding: 5px 0;
+}
+
+.about-me p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.about-me p span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: normal;
+    color: #ff5733;
+    line-height: 2rem;
+}
+
 #circle{
     width: 430px;
     height: 430px;

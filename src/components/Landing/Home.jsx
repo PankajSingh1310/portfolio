@@ -10,8 +10,7 @@ function Home() {
 
                 <div className="about-me">
                     <h2>I am Pankaj Singh</h2>
-                    <p>and I'm a Full Stack</p>
-                    <p> Web Developer</p>
+                    <p>and I'm a <span>Full Stack <br />Web Developers</span></p>
                 </div>
 
                 <div className="home-right">
