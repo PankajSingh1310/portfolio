@@ -45,7 +45,9 @@
 
 .contact-btn:hover{
     cursor: pointer;
-    scale: 1.03;
+    color: white;
+    border: 1px solid white;
+    background-color: #534a5d;
 }
 
 .active{

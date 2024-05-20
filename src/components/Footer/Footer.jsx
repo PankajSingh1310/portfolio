@@ -14,8 +14,8 @@ function Footer() {
             <div className="footer-main" >
 
                 <div className="footer-left">
-                    <a href="mailto:psrathore13101@gmail.com">mailto: psrathore13101@gmail.com</a>
-                    <a href="tel:+91 8824904588">Call: +91 8824904588</a>
+                    <a href="mailto:psrathore13101@gmail.com"><span>mail to : </span> psrathore13101@gmail.com</a>
+                    <a href="tel:+91 8824904588"><span>Call : </span> +91 8824904588</a>
                 </div>
 
                 <div className="footer-mid">
@@ -43,7 +43,7 @@ function Footer() {
 
             </div>
 
-            <div className="footer-rights">
+            <div className="footer-down">
                 <p>all rights reserved 2024</p>
             </div>
 
