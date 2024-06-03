@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import side from "../../assets/side.png";
+import profile from "../../assets/profile.png";
 
 function Home() {
     return (
@@ -15,7 +15,7 @@ function Home() {
 
                 <div className="home-right">
                     <div id="circle" data-aos="zoom-in"></div>
-                    <img src={side} alt="Me" className="main-image" />
+                    <img src={profile} alt="Me" className="main-image" />
                 </div>
 
             </div>
